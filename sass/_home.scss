@@ -1,0 +1,1206 @@
+#page-header{
+    .nav-bar{
+        background-color: #2C3844;
+        .navigation{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-top: 30px;
+            margin-bottom: 100px;
+            .nav-links{
+                @media only screen and (max-width: 950px) {
+                    display: none;
+                }
+                color: white;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: flex-end;
+                align-items: center;  
+                .nav-links-ul{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-content: center;
+                    justify-content: flex-end;
+                    align-items: center;  
+                   li{
+                       margin-left: 55px;
+                       font-family: 'Geomanist';
+                       font-size: 16px;
+                       font-weight: 500;
+                       color: white;
+                       line-height: 72px;
+                       @media only screen and (max-width: 1035px) {
+                        font-size: 12px;
+                    }
+                       a{
+                           color: white;
+                       }
+                   } 
+                }   
+                   .nav-button{  
+                        padding-left: 50px;
+                     .partnerArea{
+                        font-family: 'Geomanist';
+                        font-size: 16px;
+                        font-weight: 500;
+                        border: 2px solid white;
+                        border-radius: 40px;
+                        line-height: 16px;
+                        padding: 20px 60px;
+                        color: white;
+                    } 
+                } 
+                
+            }
+            
+        }
+        .icons{
+            position: relative;
+            text-align: right;
+    
+    .nav-icon {
+        display: none;
+    // position: absolute;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        z-index: 10;
+        width: 45px;
+        height: 25px;
+        
+        @media only screen and (max-width: 950px) {
+          display: inline-block;
+          } 
+    
+          @media only screen and (max-width: 500px) {
+            // margin-top: 10px;
+            width: 35px;
+          }
+    
+        span {
+          display: block;
+          position: absolute;
+          height: 3px;
+          background-color: #00a4e0;
+          opacity: 1;
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: 0.25s ease-in-out;
+          -moz-transition: 0.25s ease-in-out;
+          -o-transition: 0.25s ease-in-out;
+          transition: 0.25s ease-in-out;
+        
+        }
+        span:nth-child(1) {
+          width: 100%;
+          top: 0px;
+          left: 0; // border-radius: 2px;
+        }
+        span:nth-child(2) {
+          width: 100%;
+          top: 10px;
+          left: 0; // border-radius: 2px;
+          @media only screen and (max-width: 500px) {
+            top: 8px;
+          }
+        }
+        span:nth-child(3) {
+          width: 50%;
+          top: 20px;
+          right: 0; // border-radius: 2px;
+          @media only screen and (max-width: 500px) {
+            top: 16px;
+          }
+        }    
+      }
+     }  
+    }
+}
+.firstPage{
+     background-color: #2C3844;
+        .weBeliveText{
+            @media only screen and (max-width: 1372px) {
+                font-size: 70px;
+                line-height: 80px;
+            }
+            @media only screen and (max-width: 1080px) {
+                font-size: 50px;
+                line-height: 60px;
+            }
+            @media only screen and (max-width: 780px) {
+                font-size: 30px;
+                line-height: 50px;
+            }
+            color: white;
+            font-family: 'Geomanist';
+            font-size: 90px;
+            font-weight: 400;
+            line-height: 90px;
+            .success{
+                @media only screen and (max-width: 1372px) {
+                    font-size: 70px;
+                    line-height: 80px;
+                }
+                @media only screen and (max-width: 1080px) {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+                @media only screen and (max-width: 780px) {
+                    font-size: 30px;
+                    line-height: 50px;
+                }
+                height: 100%;
+                display: inline-block;
+                position: relative;
+                font-family: 'Geomanist',sans-serif;
+                font-weight: 300;
+                font-size: 90px;
+                line-height: 90px;
+                text-align: left;
+                color: #fff;
+                z-index: 10;
+             &:before{
+                @media only screen and (max-width: 780px) {
+                    bottom: 8px;
+                }
+                content: "";
+                background-color: #f6a144;
+                position: absolute;
+                bottom: 2px;
+                left: 0;
+                width: 100%;
+                opacity: 1;
+                height: 28%;
+                z-index: -1;
+             }   
+        }
+        .trust{ 
+            @media only screen and (max-width: 1372px) {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        @media only screen and (max-width: 1080px) {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        @media only screen and (max-width: 780px) {
+            font-size: 30px;
+            line-height: 50px;
+        }
+            height: 100%;
+            display: inline-block;
+            position: relative;
+            font-family: 'Geomanist',sans-serif;
+            font-weight: 300;
+            font-size: 90px;
+            line-height: 90px;
+            text-align: left;
+            color: #fff;
+            z-index: 10;
+         &:before{
+            @media only screen and (max-width: 780px) {
+                bottom: 8px;
+            }
+            content: "";
+            background-color: #8682bd;
+            position: absolute;
+            bottom: 2px;
+            left: 0;
+            width: 100%;
+            opacity: 1;
+            height: 28%;
+            z-index: -1;
+         }   
+    }
+    .excellence{
+        @media only screen and (max-width: 1372px) {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        @media only screen and (max-width: 1080px) {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        @media only screen and (max-width: 780px) {
+            font-size: 30px;
+            line-height: 50px;
+        }
+        height: 100%;
+        display: inline-block;
+        position: relative;
+        font-family: 'Geomanist',sans-serif;
+        font-weight: 300;
+        font-size: 90px;
+        line-height: 90px;
+        text-align: left;
+        color: #fff;
+        z-index: 10;
+     &:before{
+        @media only screen and (max-width: 780px) {
+            bottom: 8px;
+        }
+        content: "";
+        background-color: #00a4e0;
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;
+        opacity: 1;
+        height: 28%;
+        z-index: -1;
+     }   
+}
+    
+     } 
+        .lineText{
+            position: relative;
+            width: 100%;
+            margin-top: 55px;
+            margin-bottom: 70px;
+            .line{
+                @media only screen and (max-width: 700px) {
+                    width: 34px;
+                    height: 2px;
+                }
+                width: 64px;
+                height: 2px;
+                background-color: white;
+                display: inline-block;
+                margin-top: 20px;
+                vertical-align: top;
+            }
+            .assecoText{
+                position: relative;
+                display: inline-block;
+                width: calc(100% - 70px);  //oduzima od 100posto dijela oduzme 70px(odnosno velicinu linije)
+                vertical-align: top;
+                padding-left: 55px;
+                p{
+                    @media only screen and (max-width: 1467px) {
+                        font-size: 20px;
+                    }
+                    @media only screen and (max-width: 700px) {
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                    color: #fff;
+                    font-family: 'Geomanist';
+                    font-size: 26px;
+                    font-weight: 400;
+                    line-height: 42px;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+     .first-page-button{
+         padding-left: 110px;
+         margin-bottom: 200px;
+         @media only screen and (max-width: 500px) {
+            margin-bottom: 150px;
+        }
+         .becomeButton{
+            @media only screen and (max-width: 500px) {
+                padding: 20px 30px;
+            }
+            @media only screen and (max-width: 380px) {
+                font-size: 12px;
+                line-height: 12px;
+                padding: 10px 20px;
+            }
+            font-family: 'Geomanist';
+            font-size: 16px;
+            font-weight: 500;
+            border: 2px solid white;
+            border-radius: 40px;
+            line-height: 16px;
+            padding: 20px 62px;
+            color: white;
+         }
+     }
+    }
+.secondPage{
+    background-color: white;
+    .image-order{
+     @media only screen and (max-width: 767px) {
+         order:1;
+     }
+    }
+    .text-order{
+        @media only screen and (max-width: 767px) {
+            order:2;
+        }
+       }
+    .secondPage-wrapper{
+        padding-top: 170px;
+        padding-bottom: 130px;
+        @media only screen and (max-width: 767px) {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    
+    .headlineWhat{
+        text-transform: uppercase;
+        h2{
+            @media only screen and (max-width: 900px) {
+                font-size: 18px;
+                width: 100%;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+            color:#00A4E0;
+        }
+    }
+    .textSecondPage{ 
+        p{
+            @media only screen and (max-width: 900px) {
+                font-size: 16px;
+                line-height: 30px;
+                width: 100%;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            font-family: 'Geomanist';
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 42px;
+        }
+    }
+}
+     .img-wrapper{
+        position: relative;
+        margin-top: -200px;
+        height: calc(100% + 480px);
+        @media only screen and (max-width: 767px) {
+            height: auto;
+            min-height: 500px;
+            margin-top: -60px;
+            width: 100%;
+        }
+        }
+     }
+
+.thirdPage{
+    background-color: #2C3844;
+    padding-top: 250px;
+    width: 100%;
+    padding-bottom: 70px;
+    @media only screen and (max-width: 500px) {
+        padding-top: 120px;
+    }
+
+    .thirdPageHeadline{
+        padding-bottom: 20px;
+        h2{
+            @media only screen and (max-width: 767px) {
+                font-size: 20px;
+            }
+            @media only screen and (max-width: 1500px) {
+                padding-left: 10px;
+            }
+            color:#F6A144;
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+    }
+    .thirdPageText{
+        padding-bottom: 270px;
+        p{
+            @media only screen and (max-width: 1500px) {
+                padding-left: 10px;
+            }
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            @media only screen and (max-width: 500px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            color: white;
+            font-family: 'Geomanist';
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 68px;
+        }
+    }
+
+.third-page-imgs{
+    position: relative;
+    width: 100%;
+    margin-top: -250px;
+    padding: 0 15px;
+    padding-bottom: 40px;
+
+    .small-order{
+        @media only screen and (max-width: 767px) {
+            order:1;
+        }
+    }
+    .big-order{
+        @media only screen and (max-width: 767px) {
+            order:2;
+        }
+    }
+
+.col-small-img {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 0 10px;
+    @media (max-width: 768px){
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+}
+.col-big-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 0 10px;  
+    @media (max-width: 768px){
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+}
+.gallery-image{
+    position: relative;
+    width: 100%;
+    height: 26vw;
+    min-height: 400px;
+}
+    .obj-fit-cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+     }
+   }
+}  
+.forth-page{
+
+   .text{ 
+    p{
+        font-family: 'Geomanist';
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 48px;
+        @media only screen and (max-width: 800px) {
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+}
+    .forth-page-button{
+        text-align: right;
+        margin-bottom: 125px;
+        padding-top: 30px;
+        .apply-now{
+            @media only screen and (max-width: 800px) {
+                padding: 10px 42px;
+            }
+           font-family: 'Geomanist';
+           font-size: 16px;
+           font-weight: 500;
+           border: 2px solid #00A4E0;
+           border-radius: 40px;
+           line-height: 16px;
+           padding: 20px 62px;
+           color: #00A4E0;
+        }
+    }
+    .partnership-models{
+        h2{
+            @media only screen and (max-width: 750px) {
+                font-size: 20px;
+            }
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #00A4E0;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+        }
+    }
+    .headline-page-forth{
+        h2{
+            @media only screen and (max-width: 800px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            font-family: 'Geomanist';
+            font-size: 50px;
+            font-weight: 400; 
+            line-height: 69px;
+            text-align: center;
+        }
+    }
+.boxes{
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+
+    .no-gutters{
+        margin-right: 0;
+        margin-left: 0; 
+} 
+    
+
+    .box-orange,.box-blue{
+        position: relative;
+        width: 100%;
+        padding: 50px 50px 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+            /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(253, 195, 0, 1) 0%, rgba(232, 81, 21, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(253, 195, 0, 1) 0%, rgba(232, 81, 21, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(253, 195, 0, 1) 0%, rgba(232, 81, 21, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E85115', endColorstr='#FDC300', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(253, 195, 0, 1) 0%, rgba(232, 81, 21, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(253, 195, 0, 1) 0%, rgba(232, 81, 21, 1) 100%);
+
+      //  background-image: url("../img/graph-background.png"); 
+        h2{
+            color: white;
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 700; 
+            line-height: 30px;
+        }
+       .box-text{
+        height: 100%;
+        p{
+            color: white;
+            font-family: 'Geomanist';
+            font-size: 26px;
+            font-weight: 400; 
+            line-height: 42px; 
+            padding-top: 20px;
+        }}
+        .become-asse-partner-button{
+            padding-top: 35px;
+            padding-bottom: 20px;
+            
+            .become-asse-partner{
+               font-family: 'Geomanist';
+               font-size: 16px;
+               font-weight: 500;
+               border: 2px solid white;
+               border-radius: 40px;
+               line-height: 16px;
+               padding: 20px 62px;
+               color: white;
+               @media only screen and (max-width: 390px) {
+                padding: 10px 22px;
+            }
+
+               
+            }
+        }
+    }
+    .box-orange{
+        position: relative;
+        z-index: 5;
+        &:before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url("../img/graph-background.svg");
+        }
+    }
+    .box-blue{
+        width: 100%;
+        background-color: #00A4E0;
+        position: relative;
+        z-index: 5;
+        &:before{
+            content: "";
+            opacity: .2;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url("../img/BF_14-1.svg");
+        }
+            /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C3844', endColorstr='#00A4E0', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+        
+    }
+ }
+}
+
+
+.fifth-page{
+        background-color: #2C3844;
+        margin-top: -245px;
+        width: 100%;
+        padding-bottom: 135px;
+        @media only screen and (max-width: 778px) {
+            padding-bottom: 90px;
+        }
+    .partnership-products{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+        h2{
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 700; 
+            line-height: 30px; 
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            margin-top: 400px; 
+            @media only screen and (max-width: 500px) {
+                margin-top: 350px; 
+            }   
+        }
+        ul{
+            position: relative;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            @media only screen and (max-width: 778px) {
+                flex-direction: column;
+            }
+         
+            li{ 
+                padding-right: 30px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                a{
+                    color: white;
+                    margin: 0 15px;
+                    position: relative;
+                    font-size: 16px;
+                    line-height: 16px;
+                    font-family: 'Geomanist' ,sans-serif;
+                    font-weight: 500;
+                    color: #fff;
+                    padding: 20px 40px;
+                    border: 3px solid #fff;
+                    border-radius: 50px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    transition: all .5s cubic-bezier(.4,0,.2,1);
+                    outline: none;
+                    overflow: hidden;
+                    z-index: 2;
+                    display: inline-block;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    .product-padding{
+        padding-right: 0;
+        padding-left: 0;
+
+        .first-row-product.border-none{
+            border-right: none;
+            @media only screen and (max-width: 991px) {
+                border-right: 1px solid #00A4E0 ;
+            }
+        }
+    .first-row-product{
+        border-right: 1px solid #00A4E0 ;
+        border-bottom: 1px solid #00A4E0 ;
+        height: 100%;
+        .product-logo{
+            padding-top: 70px;
+            min-height: 30px;
+            padding-left: 30px;
+        }
+        .product-title{
+            color: white;  
+            padding-top: 25px;   
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 500; 
+            line-height: 28px; 
+            padding-left: 30px;
+        }
+        .product-text{
+            color: white; 
+            padding-top: 10px;  
+            font-family: 'Geomanist';
+            font-size: 18px;
+            font-weight: 400; 
+            line-height: 28px; 
+            padding-left: 30px;
+        }
+    }
+    .second-row-product.border-none{
+        border-right: none;
+        @media only screen and (max-width: 570) {
+            border-bottom: 1px solid #00A4E0;
+        }
+    }
+    .second-row-product.border-bottom-aml{
+        @media only screen and (max-width: 991px) {
+            border-bottom: 1px solid #00A4E0;
+        }
+    }
+    .second-row-product.border-bottom{
+        @media only screen and (max-width: 575px) {
+            border-bottom: 1px solid #00A4E0;
+        }
+    } 
+    .second-row-product.border-bottom-live{
+        @media only screen and (max-width: 575px) {
+            border-bottom: 1px solid #00A4E0;
+        }
+    }
+    .second-row-product.border-bottom-solve{
+        @media only screen and (max-width: 575px) {
+            border-bottom:none;
+        }
+    }
+    .second-row-product{
+        border-right: 1px solid #00A4E0 ;
+    //  border-bottom: 1px solid #00A4E0 ;
+        height: 100%;
+        .product-logo{
+            min-height: 30px;
+            padding-top: 50px;
+            padding-left: 30px;
+        }
+        .product-title{
+            color: white;  
+            padding-top: 25px;   
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 500; 
+            line-height: 28px; 
+            padding-left: 30px;
+        }
+        .product-text{
+            color: white; 
+            padding-top: 10px;  
+            font-family: 'Geomanist';
+            font-size: 18px;
+            font-weight: 400; 
+            line-height: 28px; 
+            padding-left: 30px;
+        }
+    }
+  } 
+}
+.page-six{
+    background-color: #2C3844;
+    .headline{
+        text-align: center;
+        padding-top: 2px;
+        h2{
+            font-family: 'Geomanist';
+            font-size: 24px;
+            font-weight: 700; 
+            line-height: 30px; 
+            color: #00A4E0;
+            text-transform: uppercase;
+            @media only screen and (max-width: 575px) {
+                font-size: 20px;
+            }
+        }        
+    }
+    .headline-two{
+        text-align: center;
+        padding-top: 10px;
+        h2{
+            font-family: 'Geomanist';
+            font-size: 50px;
+            font-weight: 400; 
+            line-height: 68px; 
+            color: white;
+            @media only screen and (max-width: 1050px) {
+                font-size: 30px;
+            }
+            @media only screen and (max-width: 650px) {
+                font-size: 20px;
+            }
+        }
+    }
+    .become-asse-partner-button{
+        padding-top: 35px;
+        text-align: center;
+        .become-asse-partner{
+           font-family: 'Geomanist';
+           font-size: 16px;
+           font-weight: 500;
+           border: 2px solid white;
+           border-radius: 40px;
+           line-height: 16px;
+           padding: 20px 62px;
+           color: white; 
+           @media only screen and (max-width: 720px) {
+            padding: 10px 32px;
+            font-size: 12px;
+        }
+        }
+    }
+    .picture-text{
+        width: 100%;
+    .image{
+         background-image: url("../img/world-img.png");
+         padding-top: 200px;
+         padding-bottom: 200px;
+         background-repeat: no-repeat;
+         background-position: top;
+     }
+         .text{
+             color: white;
+             font-family: 'Geomanist';
+             font-size: 16px;
+             font-weight: 500; 
+             line-height: 16px; 
+             .country-first-row{
+                padding-top: 5px;
+                padding-left: 50px;
+             }
+             .country-second-row{
+                 padding-top: 70px;
+                 padding-left: 35px;
+                 
+             }
+             .country-third-row{
+                padding-top: 70px;
+                padding-left: 50px;
+
+            }
+            .country-fourth-row{
+                padding-top: 70px;
+                padding-left: 50px;
+
+            }
+        }
+    }
+  }
+  .page-seven{
+    position: relative;
+    width: 100%;
+    z-index: 11;
+    .form-order{ 
+   @media only screen and (max-width: 991px) {
+       order:2;
+   }
+}   
+.text-order{ 
+    @media only screen and (max-width: 991px) {
+        order:1;
+    }
+ }     
+      .contact-form{
+          .submit{
+            position: absolute;
+            bottom: -30px;
+            font-family: 'Geomanist',sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #fff;
+            background: #f6a144;
+            border: none;
+            text-transform: uppercase;
+            padding: 22px 100px;
+            border-radius: 30px;
+            right: 50px;
+          }
+        .checkbox-div{
+            padding-top: 60px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: flex-start;
+            p{
+                font-family: 'Geomanist';
+                font-size: 12px;
+                font-weight: 400; 
+                line-height: 16px; 
+                color: white;
+            }
+          }
+          label{
+            font-family: 'Geomanist';
+            font-size: 18px;
+            font-weight: 400; 
+            line-height: 48px; 
+            color: white;
+          }
+          .input{
+            width: 100%;
+            background-color: transparent;
+            border-radius: 50px;
+            border: 3px solid #fff;
+            line-height: 48px;
+            color: white;
+            font-family: 'Geomanist';
+            font-size: 18px;
+            font-weight: 300; 
+            line-height: 48px;
+          }
+        position: relative;
+        width: 100%;
+        height: calc(100% + 120px);
+        margin-top: -100px;
+        padding: 30px 50px 70px;
+        box-shadow: 0 3px 60px 0 rgba(0,0,0,0.16);
+        z-index: 10;
+        ::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 400px;
+            background-image: url(../img/graph-background.png);
+            background-position: top;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: -1;
+            }
+          /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C3844', endColorstr='#00A4E0', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(0, 164, 224, 1) 0%, rgba(44, 56, 68, 1) 100%);
+      }
+      .content{
+          padding-top: 80px;
+          padding-left: 100px;
+          @media only screen and (max-width: 771px) {
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+              h2{
+                 font-family: 'Geomanist';
+                 font-size: 46px;
+                 font-weight: 500; 
+                 line-height: 58px; 
+                 @media only screen and (max-width: 771px) {
+                    font-size: 30px;
+                }
+                }
+            p{
+                 font-family: 'Geomanist';
+                 font-size: 26px;
+                 font-weight: 400; 
+                 line-height: 42px; 
+                 padding-top: 20px;
+                 @media only screen and (max-width: 771px) {
+                    font-size: 16px;
+                }
+          }
+      }
+  }
+  .footer{
+      padding-top: 280px;
+      background-color: #2C3844;
+      margin-top: -120px;
+      .footer-content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+      .headline{
+        font-family: 'Geomanist';
+        font-size: 46px;
+        font-weight: 400; 
+        line-height: 58px; 
+        color: white;
+        padding-bottom: 30px;
+        
+      }
+      .text,.text1{
+        font-family: 'Geomanist';
+        font-size: 14px;
+        font-weight: 400; 
+        line-height: 26px;
+        color: white;
+      }
+      .text1{
+          padding-top:25px;
+          @media only screen and (max-width: 771px) {
+            padding-bottom: 40px;
+        }
+      }
+      .icons{
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: baseline;
+          p{
+            font-family: 'Geomanist';
+            font-size: 14px;
+            font-weight: 500; 
+            line-height: 16px;
+            color: white;
+            padding-right: 40px;
+          }
+          img{
+            padding-right: 40px;
+          }
+      }
+    }
+    .right-part{
+        text-align: right;
+        @media only screen and (max-width: 771px) {
+            text-align: center;
+        }
+        img{
+            padding-bottom: 160px;
+            @media only screen and (max-width: 771px) {
+                padding-bottom: 100px;
+            }
+        }
+        .links{
+           p{
+            font-family: 'Geomanist';
+            font-size: 16px;
+            font-weight: 400; 
+            line-height: 28px;
+            color: white;
+           }
+        }
+    }
+    .social-footer{
+        position: relative;
+        width: 100%;
+
+    .icons{
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: baseline;
+
+        p{
+            font-family: 'Geomanist';
+            font-size: 14px;
+            font-weight: 500; 
+            line-height: 104px;
+            color: white;
+        }
+        a{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+    .copyright{
+        position: relative;
+        width: 100%;
+        text-align: right;
+        color:white;
+        font-family: 'Geomanist';
+        font-size: 14px;
+        font-weight: 500; 
+        line-height: 104px;
+        @media only screen and (max-width: 771px) {
+            text-align: center;
+        }
+    }
+  }
+}
+
+
